@@ -11,6 +11,14 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/DF/customer_0.1</module>
+    <module>jobs/process/DF/DF/prod_stg_to_dim_0.1</module>
+    <module>jobs/process/DF/DF/table_update_0.1</module>
+    <module>jobs/process/DF/DF/product_0.1</module>
+    <module>jobs/process/DF/DF/store_0.1</module>
+    <module>jobs/process/DF/DF/store_stg_to_dim_0.1</module>
+    <module>jobs/process/DF/DF/table_insert_0.1</module>
+    <module>jobs/process/DF/DF/fact_0.1</module>
+    <module>jobs/process/DF/DF/cust_stg_to_dim_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TALEND_PROJ</talend.project.name>
