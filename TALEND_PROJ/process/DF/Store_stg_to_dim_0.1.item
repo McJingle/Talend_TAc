@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="Sales_Port" prompt="Sales_Port?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="3306"/>
-    <contextParameter comment="" name="Sales_Server" prompt="Sales_Server?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="Sales_Login" prompt="Sales_Login?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="root"/>
+    <contextParameter comment="" name="Sales_Server" prompt="Sales_Server?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="192.168.1.102"/>
+    <contextParameter comment="" name="Sales_Login" prompt="Sales_Login?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="jr"/>
     <contextParameter comment="" name="Sales_Database" prompt="Sales_Database?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="sales"/>
     <contextParameter comment="" name="Sales_AdditionalParams" prompt="Sales_AdditionalParams?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=false"/>
-    <contextParameter comment="" name="Sales_Password" prompt="Sales_Password?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_Password" value="RsXzgl/D8iBMJAxG3hNo9Q=="/>
+    <contextParameter comment="" name="Sales_Password" prompt="Sales_Password?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_Password" value="0qDAE1k5BLdsrHpPJSN7Gg=="/>
     <contextParameter comment="" name="job_Name" prompt="job_Name?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_String" value=""/>
     <contextParameter comment="" name="Enddate" prompt="Enddate?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_String" value=""/>
     <contextParameter comment="" name="startdate" prompt="startdate?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_Date" value=""/>
   </context>
   <context confirmationNeeded="false" name="Prod">
     <contextParameter comment="" name="Sales_Port" prompt="Sales_Port?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="3306"/>
-    <contextParameter comment="" name="Sales_Server" prompt="Sales_Server?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="Sales_Login" prompt="Sales_Login?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="root"/>
+    <contextParameter comment="" name="Sales_Server" prompt="Sales_Server?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="192.168.1.102"/>
+    <contextParameter comment="" name="Sales_Login" prompt="Sales_Login?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="jr"/>
     <contextParameter comment="" name="Sales_Database" prompt="Sales_Database?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="prod"/>
     <contextParameter comment="" name="Sales_AdditionalParams" prompt="Sales_AdditionalParams?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=false"/>
-    <contextParameter comment="" name="Sales_Password" prompt="Sales_Password?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_Password" value="RsXzgl/D8iBMJAxG3hNo9Q=="/>
+    <contextParameter comment="" name="Sales_Password" prompt="Sales_Password?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_Password" value="0qDAE1k5BLdsrHpPJSN7Gg=="/>
     <contextParameter comment="" name="job_Name" prompt="job_Name?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_String" value=""/>
     <contextParameter comment="" name="Enddate" prompt="Enddate?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_String" value=""/>
     <contextParameter comment="" name="startdate" prompt="startdate?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_Date" value=""/>
   </context>
   <context confirmationNeeded="false" name="uat">
     <contextParameter comment="" name="Sales_Port" prompt="Sales_Port?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="3306"/>
-    <contextParameter comment="" name="Sales_Server" prompt="Sales_Server?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="Sales_Login" prompt="Sales_Login?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="root"/>
+    <contextParameter comment="" name="Sales_Server" prompt="Sales_Server?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="192.168.1.102"/>
+    <contextParameter comment="" name="Sales_Login" prompt="Sales_Login?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="jr"/>
     <contextParameter comment="" name="Sales_Database" prompt="Sales_Database?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="uat"/>
     <contextParameter comment="" name="Sales_AdditionalParams" prompt="Sales_AdditionalParams?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=false"/>
-    <contextParameter comment="" name="Sales_Password" prompt="Sales_Password?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_Password" value="RsXzgl/D8iBMJAxG3hNo9Q=="/>
+    <contextParameter comment="" name="Sales_Password" prompt="Sales_Password?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_Password" value="0qDAE1k5BLdsrHpPJSN7Gg=="/>
     <contextParameter comment="" name="job_Name" prompt="job_Name?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_String" value=""/>
     <contextParameter comment="" name="Enddate" prompt="Enddate?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_String" value=""/>
     <contextParameter comment="" name="startdate" prompt="startdate?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_Date" value=""/>
   </context>
   <context confirmationNeeded="false" name="UAT">
     <contextParameter comment="" name="Sales_Port" prompt="Sales_Port?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="3306"/>
-    <contextParameter comment="" name="Sales_Server" prompt="Sales_Server?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="Sales_Login" prompt="Sales_Login?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="root"/>
+    <contextParameter comment="" name="Sales_Server" prompt="Sales_Server?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="192.168.1.102"/>
+    <contextParameter comment="" name="Sales_Login" prompt="Sales_Login?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="jr"/>
     <contextParameter comment="" name="Sales_Database" prompt="Sales_Database?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="uat"/>
     <contextParameter comment="" name="Sales_AdditionalParams" prompt="Sales_AdditionalParams?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=false"/>
-    <contextParameter comment="" name="Sales_Password" prompt="Sales_Password?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_Password" value="RsXzgl/D8iBMJAxG3hNo9Q=="/>
+    <contextParameter comment="" name="Sales_Password" prompt="Sales_Password?" promptNeeded="false" repositoryContextId="_rRqd0BzBEeqU9sXTRDMymg" type="id_Password" value="0qDAE1k5BLdsrHpPJSN7Gg=="/>
     <contextParameter comment="" name="job_Name" prompt="job_Name?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_String" value=""/>
     <contextParameter comment="" name="Enddate" prompt="Enddate?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_String" value=""/>
     <contextParameter comment="" name="startdate" prompt="startdate?" promptNeeded="false" repositoryContextId="_krMYwBzEEeqU9sXTRDMymg" type="id_Date" value=""/>
@@ -1235,7 +1235,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
@@ -1255,13 +1255,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c2dc0f6d-22ab-40c5-b9e5-a14e1320524b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jx4PdgnTCFTODyYMsPjVuYunw56hBC2rr0PZRliZeT55W3sA0DSLziNvbGH/dmo6CllRsUlfluCO&#13;
-HXLfzJyadw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9f13ff75-0416-4dd6-bf14-a67fb1c78043"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>G+Aftn8KcPk6wQIrm+Hq2xmw7CZguT1bPDcm7z5S11V+3h61NwXZwMhQYVYX2IyEi8t4aK2FIb/N&#13;
-/gNukjXW1Q==</DigestValue></Reference></SignedInfo><SignatureValue>ulKhdyf6JFzIP2E1OhQ6px+YBSKW9vSdg9+wY7QWVAAQXUVqNM4CQ4HGwR25OqB7B2UuRWg/v/Gy&#13;
-ePdi+B3cYWGOmyYtPfKfdkRIdHzkqn4e36Xr8qYl3uzNZ3YcnPSGMvintJFQRfBfBqmxQNaArcGo&#13;
-OHl5qqAHDwtdoKOgEA5bzZYmEZvDFhBpYuQHhGToNvXX+ueHKl7M4L37NaeTbcBI7kE4EkT94J91&#13;
-t15IQMUodHL1+QdNeU3iXS+noAkehlfYZnnupanMUo4a0CRoDLVf/lkuLzUhe1tj6tx72oDhH19p&#13;
-GHzZcwkTrN4/mkXifChPRtREGIH0EIO7NkuCGQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6c8a6876-4caf-4ac8-b977-6f78c572800e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GZd/ExRooU2G/6YY3fHtHSyk+10+VzGyNHuq+6/XafWZK3AcUg5GLfPhaj66xmSvhU1wNNTtZn2t&#13;
+lK/fl9w3tA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8ff094f2-a89c-4916-8b8b-24c0e8732069"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4tfHBWdghoQl/f5KjnO+Em53zm8EVE4M7igzm9g2Ja+vfpfFl2J/vxREFQcs8U22e9HgNhCNaLor&#13;
+o+m9L5FfNQ==</DigestValue></Reference></SignedInfo><SignatureValue>3ZFnyQ7ZECoLum89++7OXQcLKp+FYbeVAj/OJEArJr7GT4ZxHxVXkQkzgTheTb0MN19Q3u4sX+vO&#13;
+OafjK4/w2nhNqZMKvcXP+m/Mma2C5TxGneIrKXxuB21y0r1EZEyi0CO9pEZffB3ha85z/rF/QW4f&#13;
+OoOOJX/scUDXDqD9oFvs1fNhm/jhcpXB5sQUXNLFnzlR+gB6Vi/gXPSvnNay+4Tzz9mSrZIdaNzx&#13;
+FtgeJY89Kxrcf7kkfjC6lWje3yYb3GISUtUKkA/gZhrzn4NxIiQPUlQ84sP+Ss5mKuCYlZjRCKOo&#13;
+yRCP3LDQI/5oTTsjw0wNPMEczznwqlDZEid16A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM&#13;
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im&#13;
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k&#13;
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD&#13;
@@ -1285,4 +1285,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s&#13
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI&#13;
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c&#13;
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX&#13;
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9f13ff75-0416-4dd6-bf14-a67fb1c78043" Target="#_c2dc0f6d-22ab-40c5-b9e5-a14e1320524b"><Timestamp>2020-01-08 04:28:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8ff094f2-a89c-4916-8b8b-24c0e8732069" Target="#_6c8a6876-4caf-4ac8-b977-6f78c572800e"><Timestamp>2020-01-08 04:30:18</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
