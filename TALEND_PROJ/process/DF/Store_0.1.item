@@ -266,7 +266,6 @@
       <column comment="" key="false" length="-1" name="Created_Date" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Last_modified" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="DW_InsertDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DW_UpdatedDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" name="Updates">
       <column comment="" key="false" length="-1" name="Store_City" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -275,7 +274,7 @@
       <column comment="" key="true" length="-1" name="Store_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables name="Var" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="TalendDate.getCurrentDate() " name="Current_Date" type="id_Date"/>
       </varTables>
@@ -289,8 +288,7 @@
         <mapperTableEntries expression="Store.Store_City  " name="Store_City" nullable="true" type="id_String"/>
         <mapperTableEntries expression="Store.Created_Date  " name="Created_Date" nullable="true" type="id_Date"/>
         <mapperTableEntries expression="Store.Last_modified  " name="Last_modified" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="Store_stg.DW_InsertDate == null ? Var.Current_Date : Store_stg.DW_InsertDate  " name="DW_InsertDate" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="Var.Current_Date  " name="DW_UpdatedDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="Var.Current_Date" name="DW_InsertDate" nullable="true" type="id_Date"/>
       </outputTables>
       <outputTables activateExpressionFilter="true" expressionFilter="Store.Store_Id .equals(Store_stg.Store_Id)" name="Updates" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="Store.Store_City " name="Store_City" nullable="true" type="id_String"/>
@@ -411,11 +409,6 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DW_UpdatedDate"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
@@ -432,7 +425,6 @@
       <column comment="" key="false" length="-1" name="Created_Date" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Last_modified" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="DW_InsertDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DW_UpdatedDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" key="false" length="-1" name="Store_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -441,7 +433,6 @@
       <column comment="" key="false" length="-1" name="Created_Date" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Last_modified" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="DW_InsertDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DW_UpdatedDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -1228,13 +1219,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9a4258b4-358d-42a0-b0a2-85cf75239217"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Dv+uKCXircchkE730vi7gts8StklEdoAn6P274hyK3Y6uvBt75uw4TDx1xmU9vug6KOQhvmZrViZ&#13;
-mTSLKtw2Yg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_54e03c55-2e69-4836-ad8a-807efc31af17"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IrhqPkOdxcDb6WW+sUIuqfSuaMb2DLPqaDIF7C/6PXDWYo0VQqWDB5n9VxvUGZ18Bs34nAU6gHQj&#13;
-tFAfpQM0jA==</DigestValue></Reference></SignedInfo><SignatureValue>zIcYeV4TMSjSuNskMWK4sKPsD6YzsarI08J1taoBvdZpBqwoL/wUlHRS/qE9lhyxvW70Aao6KJc9&#13;
-sAzUyoSTPJtGUzUTX5ZHmKQBcCvY1Vki64XhCZsC8BUFQ2Fi+YNirB07s0EkULJE3U2P94cyNNhV&#13;
-3Yu64MGEt0PT0PasBS5Rb4MeBL3If3LxYrVu/Lc5vAZpDGSH+rv9uSWyKuCGSEwUEin7KAlPOWun&#13;
-f1ioUN6rL5fhFQ47F+K1DVFMSoKYhn07kIVrPBvf0iDO5tJLa7/vlR132bETngR+3+V/bTqg4B0b&#13;
-i3eaDJB22UFaVIcD7U9kfNDNK0nhq2LMulpjKg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7a1b850a-14b0-42f7-9f0a-cac64d91cce1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tqr8F9EZVssDsH644d1R+wt8X9wvY6303GkLZwaDY46ZsLFYmmlpCF+nwFqmYRb7D31GAS9T8F7Y&#13;
+wNjDJj/AVQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_58513cca-90f6-44ab-9770-549d32a1be19"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7UEghw5uUo7gBaqS4kWZlis/rjf22+JOyq0moNQSePs/xONXySdrzZ3qbb9ia2qWU8KG8uYa+bSy&#13;
+0ko1xGb4VA==</DigestValue></Reference></SignedInfo><SignatureValue>kjcIJi8yEUB47M22SiZhZR6RSyiV/HTlS5Cz+uYvgj7V43+gypE1r/Mp7fk2vuGltwMO2wJMMCFT&#13;
+ESipGzP62cJFrOj8t7819iE/X6+h6jHXwYVJ4YUV58PhTT238UeUOvql8yJ6RR5dPU6QXdDDqg8k&#13;
+01AHwlPR2Sr4bpmIFOWPCowCZRQ/TIy7IYv3yk3p9Nr69gPhm49z+ZL9jQk0KqYhuzbMR7BWRmNL&#13;
+CEApzjNMSaPLG/cbhL3B1pQqMeYw5yhzeahoRJq4JgeeNiI4AWT6tKYaB8nmpCv2HahJGcPyhI7h&#13;
+5E07ZjL7M+MCbWPRilyPCS4DIfeIy8epMtPMtQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM&#13;
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im&#13;
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k&#13;
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD&#13;
@@ -1258,4 +1249,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s&#13
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI&#13;
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c&#13;
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX&#13;
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_54e03c55-2e69-4836-ad8a-807efc31af17" Target="#_9a4258b4-358d-42a0-b0a2-85cf75239217"><Timestamp>2020-01-08 05:38:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_58513cca-90f6-44ab-9770-549d32a1be19" Target="#_7a1b850a-14b0-42f7-9f0a-cac64d91cce1"><Timestamp>2020-01-08 06:19:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
