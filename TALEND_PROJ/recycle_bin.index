@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-01-03T14:58:20.183+0530"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-01-08T09:34:00.439+0530">
+  <deletedFolders>process/DF/DF</deletedFolders>
+  <deletedItems id="_b6eqMBkYEequnswuy_UOGw" path="DF/DF" type="PROCESS"/>
+  <deletedItems id="_Ugc3YBpyEeqiJfQ9tLfL8w" path="DF/DF" type="PROCESS"/>
+  <deletedItems id="_k0__kBpUEeqiJfQ9tLfL8w" path="DF/DF" type="PROCESS"/>
+  <deletedItems id="_MhqKwBpEEeqiJfQ9tLfL8w" path="DF/DF" type="PROCESS"/>
+  <deletedItems id="_EPz3cBgiEeqO7p5TE9K-WA" path="DF/DF" type="PROCESS"/>
+  <deletedItems id="_3NlwYBpoEeqiJfQ9tLfL8w" path="DF/DF" type="PROCESS"/>
+  <deletedItems id="_AtYZYCMhEeqZ0bzWFv27rw" path="DF/DF" type="PROCESS"/>
+  <deletedItems id="_wArEICMjEeqZ0bzWFv27rw" path="DF/DF" type="PROCESS"/>
+</recyclebin:RecycleBin>
