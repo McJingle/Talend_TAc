@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-01-08T09:56:51.346+0530">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-01-08T09:57:09.106+0530">
   <deletedFolders>process/DF/DF</deletedFolders>
   <deletedFolders>process/DF</deletedFolders>
+  <deletedFolders>metadata/connections/world</deletedFolders>
   <deletedItems id="_b6eqMBkYEequnswuy_UOGw" path="DF/DF" type="PROCESS"/>
   <deletedItems id="_Ugc3YBpyEeqiJfQ9tLfL8w" path="DF/DF" type="PROCESS"/>
   <deletedItems id="_k0__kBpUEeqiJfQ9tLfL8w" path="DF/DF" type="PROCESS"/>
@@ -17,4 +18,8 @@
   <deletedItems id="_4MLycO8tEembbL40DGQdhA" path="" type="CONTEXT"/>
   <deletedItems id="_g2HJACMkEeqZ0bzWFv27rw" path="" type="CONTEXT"/>
   <deletedItems id="_5mIA4O8tEembbL40DGQdhA" path="" type="CONTEXT"/>
+  <deletedItems id="_VDwjwPVaEem9xv2drxGCtw" path="world" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_UP0DUP7nEemgJK24K4eIwg" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_kDZgUBzBEeqU9sXTRDMymg" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_KrWlgPVaEem9xv2drxGCtw" path="" type="METADATA_CONNECTIONS"/>
 </recyclebin:RecycleBin>
