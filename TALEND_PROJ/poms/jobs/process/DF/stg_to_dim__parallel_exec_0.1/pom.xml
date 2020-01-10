@@ -72,6 +72,21 @@
       <artifactId>routines</artifactId>
       <version>7.1.1</version>
     </dependency>
+    <dependency>
+      <groupId>org.example.talend_proj.job</groupId>
+      <artifactId>Prod_stg_to_dim</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.talend_proj.job</groupId>
+      <artifactId>Cust_stg_to_dim</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.example.talend_proj.job</groupId>
+      <artifactId>Store_stg_to_dim</artifactId>
+      <version>0.1.0</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>${talend.job.finalName}</finalName>
