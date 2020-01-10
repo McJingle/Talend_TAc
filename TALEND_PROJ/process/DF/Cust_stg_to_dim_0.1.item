@@ -142,7 +142,7 @@
     <routinesParameter id="_4W4gcOwVEem4H9zlEaj4kw" name="TalendStringUtil"/>
     <routinesParameter id="_4Wzn8OwVEem4H9zlEaj4kw" name="TalendString"/>
   </parameters>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="256">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -194,7 +194,7 @@
       <column comment="" key="false" length="-1" name="Last_modified" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="256">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -270,7 +270,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="5" offsetLabelY="10" posX="384" posY="128">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="-9" offsetLabelY="-41" posX="320" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -313,7 +313,7 @@
       <column comment="" key="false" length="-1" name="DW_InsertDate" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="128">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -410,7 +410,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="256">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_3"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -493,7 +493,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="384">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_5"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -554,7 +554,7 @@
       <column comment="" key="false" length="-1" name="errorMessage" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="256">
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_kDZgUBzBEeqU9sXTRDMymg"/>
@@ -578,7 +578,7 @@
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="32">
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -615,7 +615,7 @@
       <column comment="" key="false" length="-1" name="Last_modified" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="32">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#10;&#10;context.startdate = TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,input_row.Last_modified);&#10;System.out.println(&quot;StartDate :&quot; + context.startdate);&#10;&#10;context.Enddate = TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, TalendDate.getCurrentDate()) ;&#10;System.out.println(&quot;Enddate :&quot; + context.Enddate);&#10;&#10;&#10;//System.out.println(TalendDate.formatDate(&quot;yyyy-MM-dd hh:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;&#10;//System.out.println(TalendDate.formatDate(&quot;YYYY-MM-dd HH:mm:ss&quot;, TalendDate.addDate(TalendDate.getCurrentDate(), -12, &quot;HH&quot;)));&#10;&#10;&#10;&#10;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
@@ -626,7 +626,7 @@
       <column comment="" key="false" length="-1" name="Last_modified" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="128">
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
     <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
     <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
@@ -650,7 +650,7 @@
       <column defaultValue="" key="false" length="3" name="code" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="128">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -782,7 +782,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tStatCatcher" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="800" posY="256">
+  <node componentName="tStatCatcher" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="704" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tStatCatcher_1"/>
     <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
@@ -804,7 +804,7 @@
       <column defaultValue="" key="false" length="8" name="duration" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="960" posY="256">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="864" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -879,7 +879,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="256">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_4"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -1066,18 +1066,50 @@
       <column comment="" defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="256">
+  <node componentName="tMysqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
     <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="32">
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;strjeyaram7@gmail.com&quot;"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;strjeyaram7@gmail.com&quot;"/>
+    <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="true"/>
+    <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;strjeyaram7@gmail.com&quot;"/>
+    <elementParameter field="TEXT" name="CC" value="&quot;jeyaram@itshoulders.com&quot;"/>
+    <elementParameter field="TEXT" name="BCC" value=""/>
+    <elementParameter field="TEXT" name="SUBJECT" value="&quot;Talend Open Studio notification&quot;"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;&lt;!DOCTYPE html&gt;&#13;&#10;&lt;html&gt;&#13;&#10;&lt;head&gt;&#13;&#10;&#13;&#10;&lt;style&gt;&#13;&#10;table, td, th &#13;&#10;{  &#13;&#10;  border: 1px solid #ddd;&#13;&#10;}&#13;&#10;&#13;&#10;table &#13;&#10;{&#13;&#10;  border-collapse: collapse;&#13;&#10;  width: 100%;&#13;&#10;}&#13;&#10;&#13;&#10;th, td &#13;&#10;{&#13;&#10;  padding: 15px;&#13;&#10;}&#13;&#10;&lt;/style&gt;&#13;&#10;&#13;&#10;&lt;/head&gt;&#13;&#10;&lt;body&gt;&#13;&#10;&#13;&#10;&lt;table&gt;&#13;&#10;  &#9;&lt;tr&gt;&#13;&#10;    &#9;&lt;th&gt;JobName&lt;/th&gt;&#13;&#10;    &#9;&lt;th&gt;Inserted_Record&lt;/th&gt;&#13;&#10;&#9;&#9;&lt;th&gt;Updated_Record&lt;/th&gt;&#13;&#10;&#9;&#9;&lt;th&gt;Total&lt;/th&gt;&#13;&#10;  &#9;&lt;/tr&gt;&#13;&#10;  &#9;&lt;tr&gt;&#13;&#10;    &#9;&lt;td&gt;&quot;+context.job_Name+&quot;&lt;/td&gt;&#13;&#10;    &#9;&lt;td&gt;&quot;+((Integer)globalMap.get(&quot;tDBOutput_3_NB_LINE_INSERTED&quot;)) +&quot;&lt;/td&gt;&#13;&#10;&#9;&#9;&lt;td&gt;&quot;+((Integer)globalMap.get(&quot;tDBOutput_2_NB_LINE_UPDATED&quot;)) +&quot;&lt;/td&gt;&#13;&#10;&#9;&#9;&lt;td&gt;&quot;+((Integer)globalMap.get(&quot;tDBInput_3_NB_LINE&quot;)) +&quot;&lt;/td&gt;&#13;&#10;&#9;  &lt;/tr&gt;&#13;&#10;&lt;/table&gt;&#13;&#10;&#13;&#10;&lt;/body&gt;&#13;&#10;&lt;/html&gt;&quot;&#13;&#10;"/>
+    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="false"/>
+    <elementParameter field="TABLE" name="ATTACHMENTS"/>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="&quot;smtp.gmail.com&quot;"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="465"/>
+    <elementParameter field="CHECK" name="SSL" value="true"/>
+    <elementParameter field="CHECK" name="STARTTLS" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;strjeyaram7@gmail.com&quot;"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="2uNDYMdYy8B20ToUZMqeCA=="/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="html"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter field="TEXT" name="LOCALHOST" show="false" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSendMail_1"/>
   </node>
   <connection connectorName="FLOW" label="Cust_Stg" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1160,9 +1192,13 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="audit"/>
   </connection>
-  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tDBOutput_4" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_4" target="tDBClose_1">
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tDBOutput_4" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tDBOutput_4" target="tDBClose_1">
     <elementParameter field="MEMO_JAVA" name="CONDITION" value="audit.message_type == &quot;end&quot;"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tDBOutput_4" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tDBOutput_4" target="tSendMail_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="audit.message_type == &quot;end&quot;"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If2"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
@@ -1203,13 +1239,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f6611c8d-5ab1-40d1-b0a8-e4f403b62a30"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GYqgE1MVIwEjACQmNRlAdd6C1E+NIZS7tC6n381OLrzdn77ZAfYPz/CeG+RmVRgSLA87WO7Jug+q&#13;
-5U8PH9sBRA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b7da2419-2ed9-4667-bfb8-dc53040ece7e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/+ciZRt04MD7ualpenAvA25yWdsTc/dhgtGo6HbOhNDaWRgsZR5tPSvy9Maq4KRhubNc1hix/3gh&#13;
-HxvFuv65Aw==</DigestValue></Reference></SignedInfo><SignatureValue>ETRH26MNbNS428MwJNTRSH8XqZTl8zCJkX99LygQSkiKR2DU8U74UJtwke9aZy3klefqF+NEg6DJ&#13;
-IuIXU+BDkQBegVmnGknLRASZ7+znQLnYyjpTxJaB37ru/Rn4rU935phjkPOa+c75wJyQeX4B+E//&#13;
-YQ/Rlj84DgLCV+EugJCF+5YTRsgaOEU2uAcmbkCrkd+mTDI61SypK+3mvpmjMiFVwKU5lqmu8qz/&#13;
-Y8qppGmzDYgycxzfwK9OFRzk16eoBCZM1eu6r6+poYclqLtT6cIkibjbOv4YzJF7iP6HKYdKQQeL&#13;
-QBJdOL5mrD4ACq6kJHLW9xLUgcmqo59gWsp0vw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_32b19f18-16f4-47e4-ad04-893335db78fb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>C1jPsYpjFSLRfKN+JACR35ShuAKhQOuBDke0bGfkv1LZQCrT/0Kpc7m+LQvwXp8tYns3Bg7FVm5U&#13;
+y3B4k5BzVg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b7c110d6-8d3f-4246-9c6a-a15de6f7f726"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>aUq6euNmwcFcr/Z/o2dGSYk5ZFVMQorSf+EpVTAX7yWRF17jS+hHEyQWrIE25HGDVx0vOKkzC/DT&#13;
+R3bL76NW6A==</DigestValue></Reference></SignedInfo><SignatureValue>gTrekJLBYxPdyj6NHCYWduoBsbYnzbSD8K+OuwiLS9JOsjaGuh5nUQL0srSYHSSSM3r0mVfCCGHi&#13;
+xArFcmmIRrIb6tA+R1sgDwtl9wYSJvdljwWy+xJcPgxzxATPuDyr1INItTZqUhSN1VipeSrnR/ts&#13;
+iGBcR1VUT2E/livgBbZR/nn384F9sJMlrYUqprg/B9HPQ7gruRVyewHb/JBlPL0sVIF/pFTPBZ3i&#13;
+PKRXPuHgWs16/UajR8pYg/g3TQT1zq1J2SHNQz/5dIyI0ggbtdsvES2S8E1Ur7i5jAOaFIySq2x7&#13;
+PB3XXfVGtv/R+MIQRFpj7hb/vnUh5w2H2dBrEw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM&#13;
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im&#13;
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k&#13;
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD&#13;
@@ -1233,4 +1274,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s&#13
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI&#13;
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c&#13;
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX&#13;
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b7da2419-2ed9-4667-bfb8-dc53040ece7e" Target="#_f6611c8d-5ab1-40d1-b0a8-e4f403b62a30"><Timestamp>2020-01-10 06:44:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b7c110d6-8d3f-4246-9c6a-a15de6f7f726" Target="#_32b19f18-16f4-47e4-ad04-893335db78fb"><Timestamp>2020-01-10 06:51:07</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
